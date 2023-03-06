@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body{
+  background-image: url('../img/fon.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.history_container{
+  width: 780px;
+  margin: 0 auto;
+  padding: 80px;
+}
+.wrapper_container{
+  width: 670px;
+  margin: 0 auto;
+}
+

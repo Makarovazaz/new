@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header{
+    background-image: url('./img/fon1.png') ;
+    height: 482vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.conteiner{
+    width: 1100px;
+    margin: 0 auto;
+}
+.history{
+  text-align: center;
+  padding-top: 65px;
+  font-size: 48px;
+  text-shadow: 2px 2px 0 #9a9a9a, 4px 4px 0 #6f6e6e;
+  color: rgb(74, 35, 13);
+  font-weight: 600;
+}
+.war{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(45, 16, 8);
+}
+.text_m{
+    margin-bottom: 100px;
+    margin-top: 41px;
+    font-size: 20px;
+    display: block;
+    background: rgba(223, 219, 219, 0.534);
+    width: 975px;
+    height: 130px;
+    padding: 16px 16px;
+    margin-left: 2% 
+}
+.text_b{
+  margin-top: 30px;
+  font-size: 29px;
+  font-weight: 380;
+  margin-left: 2%;
+  line-height: 30.5px;
+  text-align: justify;
+  
+}
+.text_header{
+margin-top: 80px;
+font-size: 30px;
+font-weight: 900;
+margin-left: 7%;
+}
+.text1{
+  margin-top: 30px;
+  font-size: 29px;
+  font-weight: 500;
+  margin-left: 2%;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+}
